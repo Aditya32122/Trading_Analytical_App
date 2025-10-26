@@ -258,10 +258,6 @@ DATABASE_URL=postgresql://user:pass@host:port/db
 DEBUG=true
 LOG_LEVEL=INFO
 
-# QAfrontend/.env
-REACT_APP_API_URL=http://localhost:8000
-REACT_APP_WS_URL=ws://localhost:8000
-```
 
 ## 📊 Performance & Monitoring
 
@@ -271,22 +267,6 @@ REACT_APP_WS_URL=ws://localhost:8000
 - 💾 **Memory**: Efficient circular buffers
 - 📈 **Uptime**: Auto-reconnection & error recovery
 
-## 🚀 Deployment
-
-### Docker Production
-```bash
-# Production deployment
-docker-compose -f docker-compose.prod.yml up -d
-
-# Scale services
-docker-compose up --scale backend=3 --scale frontend=2
-```
-
-### Cloud Platforms
-- ☁️ **AWS**: ECS, Fargate, RDS
-- 🌐 **Google Cloud**: Cloud Run, Cloud SQL
-- ⚡ **Azure**: Container Instances, PostgreSQL
-- 🚀 **Vercel/Netlify**: Frontend deployment
 
 ## 🛡️ Security Features
 
@@ -296,37 +276,6 @@ docker-compose up --scale backend=3 --scale frontend=2
 - 📝 **Error Handling** - Graceful failure management
 - 🔄 **Auto-reconnection** - WebSocket resilience
 
-## 📋 Roadmap
-
-- [ ] 🤖 Machine learning prediction models
-- [ ] 🏪 Additional exchange integrations  
-- [ ] 📱 Mobile application
-- [ ] 🔄 Advanced backtesting
-- [ ] 📊 Enhanced visualizations
-- [ ] 👥 Social trading features
-- [ ] 💼 Portfolio management
-- [ ] 🎯 Advanced order management
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-1. 🍴 Fork the repository
-2. 🌿 Create feature branch (`git checkout -b feature/amazing-feature`)
-3. 💾 Commit changes (`git commit -m 'Add amazing feature'`)
-4. 📤 Push to branch (`git push origin feature/amazing-feature`)
-5. 🔄 Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- 📖 **Documentation**: [Wiki](https://github.com/your-username/trading-analytics-suite/wiki)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/your-username/trading-analytics-suite/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/your-username/trading-analytics-suite/discussions)
-- 📧 **Email**: support@your-domain.com
 
 ## 🙏 Acknowledgments
 
@@ -335,16 +284,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🚀 [FastAPI](https://fastapi.tiangolo.com/) - Modern Python web framework
 - ⚛️ [React](https://reactjs.org/) - UI library
 
----
-
-<div align="center">
-
-**Built with ❤️ for traders and quantitative analysts**
-
-[![GitHub stars](https://img.shields.io/github/stars/your-username/trading-analytics-suite?style=social)](https://github.com/your-username/trading-analytics-suite/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/trading-analytics-suite?style=social)](https://github.com/your-username/trading-analytics-suite/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/your-username/trading-analytics-suite)](https://github.com/your-username/trading-analytics-suite/issues)
-[![GitHub license](https://img.shields.io/github/license/your-username/trading-analytics-suite)](https://github.com/your-username/trading-analytics-suite/blob/main/LICENSE)
 
 
 </div>
