@@ -1,0 +1,31 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+
+# Node / React build
+QAfrontend/node_modules/
+QAfrontend/build/
+QAfrontend/.env
+QAfrontend/.env.*
+
+# Python / FastAPI backend
+QAbackend/__pycache__/
+QAbackend/venv/
+QAbackend/.env
+QAbackend/.env.*
+QAbackend/exports/
+
+# Docker / Compose
+*.pid
+*.seed
+*.pid.lock
+
+# VSCode / JetBrains IDEs
+.vscode/
+.idea/

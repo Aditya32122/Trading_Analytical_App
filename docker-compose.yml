@@ -1,0 +1,28 @@
+services:
+  # Python Backend (FastAPI)
+  backend:
+    build:
+      context: ./QAbackend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./QAbackend/.env
+    volumes:
+      - ./QAbackend:/app
+    restart: unless-stopped
+
+  # React Frontend
+  frontend:
+    build:
+      context: ./QAfrontend
+      dockerfile: Dockerfile
+    ports:
+    - "3000:80"  
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+    volumes:
+      - ./QAfrontend/src:/app/src
+    depends_on:
+      - backend
+    restart: unless-stopped
