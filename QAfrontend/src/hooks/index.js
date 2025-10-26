@@ -1,0 +1,1 @@
+export { default as useAlertsManager } from './useAlertsManager';
