@@ -8,6 +8,8 @@
 
 > A comprehensive real-time trading analytics platform for cryptocurrency markets with advanced statistical analysis, alert management, and interactive dashboards.
 
+Demo link - https://www.loom.com/share/5e73bfd3008c42a383790a538c0f1685
+
 ## ✨ Features
 
 <table>
